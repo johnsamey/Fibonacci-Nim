@@ -7,6 +7,7 @@
 
 # random number of cions
 import random
+import time
 turn = 0
 number_of_coins=random.randint(2,1000)
 previous_move = None
@@ -43,7 +44,7 @@ while True:
     if player_take(min(number_of_coins, previous_move * 2)):
         break
 
-print("Game over! ")
+print("Game Over! ")
 
 
 
